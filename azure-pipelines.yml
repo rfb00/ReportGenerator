@@ -2,7 +2,7 @@ pool:
   vmImage: 'windows-latest'
 
 variables:
-  - group: 'FtpSettings' # variable group
+  #- group: 'FtpSettings' # variable group
   - name: solution
     value: '**/*.sln'
   - name: buildPlatform
