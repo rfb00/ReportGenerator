@@ -305,7 +305,7 @@ stages:
               publishFeedCredentials: Nuget.org
             continueOnError: true
 
-          - task: ms-devlabs.vsts-developer-tools-build-tasks.publish-extension-build-task.PublishAzureDevOpsExtension
+          - task: ms-devlabs.vsts-developer-tools-build-tasks.publish-extension-build-task.PublishAzureDevOpsExtension@2
             displayName: 'Publish Extension'
             inputs:
               connectedServiceName: 'Visual Studio Marketplace'
