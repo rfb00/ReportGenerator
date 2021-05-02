@@ -316,7 +316,7 @@ stages:
               connectedServiceName: 'Visual Studio Marketplace'
               fileType: vsix
               vsixFile: '../packages/vsix/Palmmedia.reportgenerator-*.vsix'
-              updateTasksVersion: false
+              updateTasksVersion: true
             continueOnError: true
 
           - task: gep13.chocolatey-azuredevops.chocolatey-azuredevops.ChocolateyCommand@0
