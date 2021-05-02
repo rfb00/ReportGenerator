@@ -310,7 +310,7 @@ stages:
             inputs:
               version: v0.7.x
 
-          - task: ms-devlabs.vsts-developer-tools-build-tasks.publish-extension-build-task.PublishAzureDevOpsExtension@2
+          - task: ms-devlabs.vsts-developer-tools-build-tasks.publish-extension-build-task.PublishAzureDevOpsExtension
             displayName: 'Publish Extension'
             inputs:
               connectedServiceName: 'Visual Studio Marketplace'
